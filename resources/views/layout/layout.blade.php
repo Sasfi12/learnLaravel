@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="{{asset('style/style.css')}}">
 </head>
 <body>
-    <a href="{{url('/about')}}">about us</a>
-    <a href="{{url('/livre')}}">our books</a>
-    <h3 class="main-greetings">よろしくおねがいします</h3>
+    <nav>
+        <a href="{{url('/about')}}">about us</a>
+        <a href="{{url('/livre')}}">our books</a>
+        <a href="{{url('/flashcards')}}">our flashcards</a>
+    </nav>
+    <main>
+        @yield("content")
+    </main>
+    
 </body>
 </html>
