@@ -5,6 +5,7 @@
         @foreach ($Cards as $card)
             <li>
                 <p>{{$card->question}}->{{$card->answer}}</p>
+                <img src="{{$card->img}}" alt="">
             </li>
         @endforeach
     </ul>

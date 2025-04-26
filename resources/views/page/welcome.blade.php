@@ -1,2 +1,2 @@
 @extends("layout.layout")
-<h3 class="main-greetings">よろしくおねがいします</h3>
+<h3 class="main-greetings">Welcome</h3>

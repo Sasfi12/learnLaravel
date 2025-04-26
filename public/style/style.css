@@ -2,14 +2,11 @@ body {
     background-color: brown;
     min-height: 100vh;
     min-width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     .main-greetings {
         font-size: 50px;
     }
-    .book {
-       
+    nav {
+        display: flex;
+        justify-content: space-evenly;
     }
 }

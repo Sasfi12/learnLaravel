@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id()->autoIncrement();
             $table->string('question'); 
             $table->string('answer'); 
+            $table->longText('img'); 
         });
     }
 
