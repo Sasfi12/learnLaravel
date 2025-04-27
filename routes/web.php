@@ -5,6 +5,7 @@ use App\Http\Controllers\firstController ;
 use App\Http\Controllers\libreController ;
 use App\Http\Controllers\flashcardController; 
 use App\Http\Controllers\memberController; 
+use App\Http\Controllers\seederController;
 Route::get('/', function () {
     return view('page.welcome');
 });

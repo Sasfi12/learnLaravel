@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Shema::create( "seeder" ,function(Blueprint $table) {
                 $table->id()->autoIncrement();
-                $table->string("");
-
+                $table->string("name");
+                $table->string("marks"); 
         }
     );
         //
