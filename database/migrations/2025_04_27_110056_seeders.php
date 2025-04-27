@@ -11,10 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Shema::create( "seeder" ,function(Blueprint $table) {
+        Shema::create( "seeders" ,function(Blueprint $table) {
                 $table->id()->autoIncrement();
                 $table->string("name");
-                $table->string("marks"); 
+                $table->integer("marks"); 
         }
     );
         //
@@ -25,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Shema::DropIfExists('seeders');
     }
 };
