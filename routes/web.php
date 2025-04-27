@@ -16,3 +16,5 @@ Route::get('/livre', [libreController::class , "index"]);
 Route::get('/flashcards', [flashcardController::class , "index"]);
 
 Route::get('/member', [memberController::class , "index"]);
+
+Route::get('/seeder', [seederController::class , "index"]);
