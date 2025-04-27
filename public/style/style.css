@@ -2,6 +2,9 @@ body {
     background-color: brown;
     min-height: 100vh;
     min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     .main-greetings {
         font-size: 50px;
     }
