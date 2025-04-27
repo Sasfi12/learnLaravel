@@ -1,5 +1,6 @@
 @extends("layout.layout")
 @section("content")
+<a href="{{url('/')}}">go back</a>
 <div>
     <ul>
         @foreach ($Cards as $card)

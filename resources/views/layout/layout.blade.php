@@ -12,6 +12,7 @@
         <a href="{{url('/livre')}}">our books</a>
         <a href="{{url('/flashcards')}}">our flashcards</a>
         <a href="{{url('/member')}}">our members</a>
+        <a href="{{url('/seeder')}}"></a>
     </nav>
     <main>
         @yield("content")
